@@ -335,11 +335,14 @@
 .folder-toolbar h2{font:600 clamp(48px,6vw,82px) 'Space Grotesk';letter-spacing:-.065em;line-height:.9;margin:0}
 
 /* ARCHIVE COVER CARDS */
-.archive-cover-only{border:0;background:transparent!important;text-align:left;padding:0}
-.archive-cover-only:hover{border-color:transparent;background:transparent!important}
+.archive-cover-only{border:0;background:transparent!important;text-align:left;padding:0;cursor:default}
+.archive-cover-only:hover{border-color:transparent;background:transparent!important;transform:none}
 .archive-cover-only .archive-card-image{height:480px;border:1px solid rgba(255,255,255,.11)}
 .archive-cover-only .archive-card-image img{filter:saturate(.82) contrast(1.03)}
-.archive-cover-only:hover .archive-card-image{border-color:rgba(24,167,223,.5)}
+.archive-cover-title{padding:20px 2px 4px}
+.archive-cover-title span{display:block;font:500 9px 'Space Grotesk';letter-spacing:.18em;color:#18a7df}
+.archive-cover-title h2{font:500 clamp(25px,2.4vw,35px) 'Space Grotesk';letter-spacing:-.045em;margin:8px 0 0;color:#f2f1ed}
+.archive-cover-only:hover .archive-card-image{border-color:rgba(255,255,255,.18)}
 @media(max-width:1050px){.archive-cover-only .archive-card-image{height:430px}}
 @media(max-width:850px){.archive-cover-only .archive-card-image{height:440px}}
 .folder-toolbar h2 em{font-style:normal;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.55)}
