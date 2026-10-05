@@ -156,7 +156,7 @@
 }
 
 /* FULL OPENING SEQUENCE */
-.intro{background:#05080c!important}
+.intro{background:#05080c!important}.intro-word{z-index:0!important;top:50%!important;font-size:clamp(110px,22vw,320px)!important;letter-spacing:-.09em!important;color:rgba(255,255,255,.025)!important;-webkit-text-stroke:1px rgba(255,255,255,.055)!important;transform:translateY(-50%) scale(1.02)!important;pointer-events:none!important}.intro-content{z-index:1!important}.intro-title-wrap{display:flex;align-items:baseline;justify-content:center}.intro-title-wrap h1{position:relative;z-index:2}.intro-title-wrap b{position:relative;z-index:2}.intro-year{display:inline-flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:flex-end!important;line-height:.72!important;margin-left:17px!important;margin-bottom:3px!important}.intro-year span{display:block!important;height:.72em!important}.intro-year span:last-child{margin-left:0!important}
 .intro-grid{position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px);background-size:72px 72px;mask-image:radial-gradient(circle at center,#000 0%,transparent 78%);opacity:.55}
 .intro-word{top:50%!important;transform:translateY(-50%)!important;width:100%!important;font-size:clamp(62px,9vw,150px)!important;letter-spacing:.08em!important;color:rgba(255,255,255,.018)!important;-webkit-text-stroke:1px rgba(255,255,255,.12)!important}
 .intro-word:after{content:"STUDENT BRANCH";display:block;font:8px 'Space Grotesk';letter-spacing:.55em;color:rgba(255,255,255,.3);margin-top:22px}
@@ -165,7 +165,7 @@
 .intro-logos img:first-child{width:78px!important;height:78px!important;object-fit:contain}
 .intro-logos img:last-child{width:155px!important;height:70px!important;object-fit:contain}
 .intro-title-wrap{position:relative;display:flex;align-items:flex-end;justify-content:center;margin:46px 0 27px;min-height:155px}
-.intro-title-wrap h1{font:700 clamp(92px,13vw,190px) 'Space Grotesk'!important;letter-spacing:-.1em!important;line-height:.72!important;margin:0!important;color:#f2f1ed}
+.intro-title-wrap h1{font:700 clamp(92px,13vw,190px) 'Space Grotesk'!important;letter-spacing:0!important;line-height:.72!important;margin:0!important;color:#f2f1ed}.intro-fail-title{display:flex!important;align-items:flex-end!important;justify-content:center!important;gap:.045em!important}.intro-fail-title span{display:block!important}.intro-fail-title i{font-style:normal!important;font-size:.42em!important;line-height:1!important;margin:0 .08em .03em!important;transform:translateY(0)!important}
 .intro-title-wrap b{font:400 clamp(35px,4vw,65px) 'Space Grotesk'!important;color:#18a7df!important;letter-spacing:-.08em!important;line-height:1!important;margin:0 0 3px 17px!important}
 .intro-line{width:min(520px,65vw)!important;height:1px!important;background:linear-gradient(90deg,transparent,#18a7df 20%,#e16e2d 80%,transparent)!important;transform-origin:center}
 .intro-content p{font-size:9px!important;letter-spacing:.42em!important;margin-top:19px!important;color:#9aa5ac!important}
