@@ -333,6 +333,15 @@
 .folder-section{padding-top:55px!important}
 .folder-toolbar{display:grid;grid-template-columns:1fr .55fr;gap:8vw;align-items:end;margin-bottom:52px}
 .folder-toolbar h2{font:600 clamp(48px,6vw,82px) 'Space Grotesk';letter-spacing:-.065em;line-height:.9;margin:0}
+
+/* ARCHIVE COVER CARDS */
+.archive-cover-only{border:0;background:transparent!important;text-align:left;padding:0}
+.archive-cover-only:hover{border-color:transparent;background:transparent!important}
+.archive-cover-only .archive-card-image{height:480px;border:1px solid rgba(255,255,255,.11)}
+.archive-cover-only .archive-card-image img{filter:saturate(.82) contrast(1.03)}
+.archive-cover-only:hover .archive-card-image{border-color:rgba(24,167,223,.5)}
+@media(max-width:1050px){.archive-cover-only .archive-card-image{height:430px}}
+@media(max-width:850px){.archive-cover-only .archive-card-image{height:440px}}
 .folder-toolbar h2 em{font-style:normal;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.55)}
 .folder-toolbar>p{max-width:430px;color:#8996a0;font-size:13px;line-height:1.9;margin:0}
 .folder-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
